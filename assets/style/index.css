@@ -1,0 +1,30 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto; }
+
+.fz-12 {
+  font-size: 12px; }
+
+.fz-14 {
+  font-size: 14px; }
+
+a {
+  color: #121212; }
+
+.sidebar {
+  height: auto; }
+  .sidebar a {
+    color: #121212; }
+
+.content {
+  max-width: 984px; }
+
+.pic {
+  width: 40px;
+  height: 40px; }
+
+mark {
+  background: #EDF4EE;
+  color: #2A8356; }
+
+/*# sourceMappingURL=index.css.map */
