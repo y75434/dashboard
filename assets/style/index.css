@@ -1,6 +1,13 @@
-.container {
-  max-width: 1280px;
-  margin: 0 auto; }
+h1 .logo {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week5/logo-ANSWER.svg); }
+
+h1 a {
+  width: 150px;
+  height: 42px;
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap; }
 
 .fz-12 {
   font-size: 12px; }
@@ -12,6 +19,7 @@ a {
   color: #121212; }
 
 .sidebar {
+  min-width: 300px;
   height: auto; }
   .sidebar a {
     color: #121212; }
@@ -21,10 +29,21 @@ a {
 
 .pic {
   width: 40px;
-  height: 40px; }
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover; }
 
 mark {
   background: #EDF4EE;
   color: #2A8356; }
+
+.zip_btn {
+  width: 175px; }
+
+.list-style_disc {
+  list-style-type: disc; }
+
+.table thead th {
+  border-top: 2px solid #fff; }
 
 /*# sourceMappingURL=index.css.map */

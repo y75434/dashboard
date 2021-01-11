@@ -11,16 +11,18 @@
 </head>
 
 <body>
-<div class="container d-flex m-0 p-0 br-0">
-  <div class="sidebar bg-primary d-flex flex-column ml-0 p-5 pt-0 mb-.">
+<div class=" d-flex m-0 p-0 br-0">
+  <div class="sidebar bg-primary d-flex justify-content-center flex-column ml-0 p-5 pt-0 w-25">
+    <h1 class="mb-4">
+      <a href="index.html" class="logo">dashboard</a>
+    </h1>
     <ul class="list-unstyled  font-weight-bold mb-auto">
-      <li class="mb-3"><a href="index.html"><img src="https://hexschool.github.io/webLayoutTraining1st/week5/logo-ANSWER.svg" alt="logo" /></a></li>
-      <li class="mb-3"><a href="#"><span class="material-icons mr-4">assessment</span>Dashboard</a></li>
-      <li class="mb-3"><a href="#"><span class="material-icons mr-4">question_answer</span>Question</a></li>
-      <li class="mb-3"><a href="#"><span class="material-icons mr-4">assignment</span>Assignment</a></li>
-      <li class="mb-3"><a href="#"><span class="material-icons mr-4">video_library</span>Course</a></li>
-      <li class="mb-3"><a href="admin.html"><span class="material-icons mr-4">group</span>Admin</a></li>
-      <li class="mb-3"><a href="#"><span class="material-icons mr-4">settings</span>Settings</a></li>
+      <li class="mb-4"><a href="#" class="d-flex align-items-center"><span class="material-icons mr-4">assessment</span><span>Dashboard</span></a></li>
+      <li class="mb-4"><a href="#" class="d-flex align-items-center"><span class="material-icons mr-4">question_answer</span><span>Question</span></a></li>
+      <li class="mb-4"><a href="#" class="d-flex align-items-center"><span class="material-icons mr-4">assignment</span><span>Assignment</span></a></li>
+      <li class="mb-4"><a href="#" class="d-flex align-items-center"><span class="material-icons mr-4">video_library</span><span>Course</span></a></li>
+      <li class="mb-4"><a href="admin.html" class="d-flex align-items-center"><span class="material-icons mr-4">group</span><span>Admin</span></a></li>
+      <li class="mb-4"><a href="#" class="d-flex align-items-center"><span class="material-icons mr-4">settings</span><span>Settings</span></a></li>
     </ul>
     <div class="d-flex align-items-center">
       <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true" class="mr-3 rounded-circle pic" >
@@ -33,12 +35,12 @@
   
     
   
-    <div class="content m-5 ">
+    <div class="content m-5 w-75">
       <div class="header d-flex row align-items-center mb-5">
         <h2 class="h4 mr-5">Admin</h2>
-        <span class="material-icons pr-2 text-secondary">add</span>
-        <button type="button" class="btn white" data-toggle="modal" data-target="#exampleModal">
-          Add New Admin
+        <button type="button" class="btn white align-items-center d-flex" data-toggle="modal" data-target="#exampleModal">
+          <span class="material-icons pr-2 text-secondary">add</span>
+          <span>Add New Admin</span>
         </button>
         <div class="ml-auto">
           <a href="#"><span class="material-icons icon-md ">search</span></a>
@@ -48,13 +50,13 @@
     
       
       <!--表單-->
-      <table class="table ">
+      <table class="table">
         <thead>
-          <tr>
+          <tr >
             <th scope="col">ID <i class="material-icons text-secondary font-sm align-middle mb-1 font-weight-bold">arrow_downward</i></th>
             <th scope="col">Name</th>
             <th scope="col">Email</th>
-            <th scope="col">Verified</th>
+            <th scope="col" colspan="2">Verified</th>
           </tr>
         </thead>
         <tbody>
